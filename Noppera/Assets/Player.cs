@@ -24,7 +24,7 @@ public class Player : MonoBehaviour {
 		
 		rigidbody2D.MovePosition(this.rigidbody2D.position + new Vector2(h,v)*moveSpeed);
 		bool lastorientation = right;
-		right = (h > 0)||(lastorientation);
+		right = (h > 0);//||(lastorientation);
 
 		if(lastorientation != right){
 			this.transform.localScale = new Vector3((right)?-.5f:.5f,transform.localScale.y,transform.localScale.z);
