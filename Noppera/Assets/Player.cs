@@ -9,6 +9,8 @@ public class Player : MonoBehaviour {
 	
 	float h;
 	float v;
+
+	bool right;
 	
 	// Use this for initialization
 	void Start () {
@@ -21,5 +23,11 @@ public class Player : MonoBehaviour {
 		v = Input.GetAxis("Vertical");
 		
 		rigidbody2D.MovePosition(this.rigidbody2D.position + new Vector2(h,v)*moveSpeed);
+		bool lastorientation = right;
+		right = (h > 0)||(lastorientation);
+
+		if(lastorientation != right){
+			this.transform.localScale = new Vector3((right)?-.5f:.5f,transform.localScale.y,transform.localScale.z);
+		}
 	}
 }
