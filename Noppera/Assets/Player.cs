@@ -11,10 +11,12 @@ public class Player : MonoBehaviour {
 	float v;
 
 	bool right;
+
+	public static Player instance;
 	
 	// Use this for initialization
 	void Start () {
-		
+		instance = this;
 	}
 	
 	// Update is called once per frame
@@ -29,5 +31,10 @@ public class Player : MonoBehaviour {
 		if(lastorientation != right){
 			this.transform.localScale = new Vector3((right)?-.5f:.5f,transform.localScale.y,transform.localScale.z);
 		}
+	}
+
+	public void warpTo(Vector2 v)
+	{
+		this.transform.position = v;
 	}
 }
