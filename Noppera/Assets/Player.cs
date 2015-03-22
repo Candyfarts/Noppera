@@ -24,7 +24,7 @@ public class Player : MonoBehaviour {
 		h = Input.GetAxis("Horizontal");
 		v = Input.GetAxis("Vertical");
 		
-		rigidbody2D.MovePosition(this.rigidbody2D.position + new Vector2(h,v)*moveSpeed);
+		GetComponent<Rigidbody2D>().MovePosition(this.GetComponent<Rigidbody2D>().position + new Vector2(h,v)*moveSpeed);
 		bool lastorientation = right;
 		right = (h > 0);//||(lastorientation);
 
