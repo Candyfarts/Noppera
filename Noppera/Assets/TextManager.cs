@@ -24,6 +24,12 @@ public class TextManager : MonoBehaviour {
 
 	public void write(string s)
 	{
+		if(textBuffer.Count == 0)
+			textBuffer.Add(s);
+	}
+
+	public void writeImportant(string s)
+	{
 		textBuffer.Add(s);
 	}
 
@@ -38,7 +44,6 @@ public class TextManager : MonoBehaviour {
 				yield return new WaitForSeconds(textSpeed * 10);
 			}
 			s = textBuffer[0];
-			textBuffer.RemoveAt(0);
 			dialogueBox.gameObject.SetActive(true);
 			dialogueText.text = "";
 			while (s.Length > 0)
@@ -48,6 +53,7 @@ public class TextManager : MonoBehaviour {
 				yield return new WaitForSeconds(textSpeed);
 			}
 			yield return new WaitForSeconds(textSpeed * 10);
+			textBuffer.RemoveAt(0);
 		}
 	}
 }
