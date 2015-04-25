@@ -1,0 +1,13 @@
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\UnityEditor.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\UnityEngine.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\henry_000\Documents\Noppera\Noppera\Noppera\obj\Debug\Assembly-CSharp-firstpass.pdb
