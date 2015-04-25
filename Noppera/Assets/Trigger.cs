@@ -14,7 +14,7 @@ public class Trigger : MonoBehaviour {
 	public void trigger () {
 		if(e != null)
 			e.activate();
-		if(text.Length > 0){ 
+		if(text.Length != 0){ 
 			if (useCount > 0 && TextManager.singleton != null)
 			{
 				if (alltext){
