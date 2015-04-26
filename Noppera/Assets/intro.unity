@@ -908,7 +908,7 @@ MonoBehaviour:
   - They seem friendly
   important: 0
   alltext: 0
-  useCount: -1
+  useCount: 1
 --- !u!58 &1813353338
 CircleCollider2D:
   m_ObjectHideFlags: 0

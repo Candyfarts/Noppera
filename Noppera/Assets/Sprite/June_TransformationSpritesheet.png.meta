@@ -1,9 +1,29 @@
 fileFormatVersion: 2
 guid: 4bc5b5a098fa93a43bbf89a193ed4f9c
-timeCreated: 1429990679
+timeCreated: 1430008462
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: June_TransformationSpritesheet_0
+    21300002: June_TransformationSpritesheet_1
+    21300004: June_TransformationSpritesheet_2
+    21300006: June_TransformationSpritesheet_3
+    21300008: June_TransformationSpritesheet_4
+    21300010: June_TransformationSpritesheet_5
+    21300012: June_TransformationSpritesheet_6
+    21300014: June_TransformationSpritesheet_7
+    21300016: June_TransformationSpritesheet_8
+    21300018: June_TransformationSpritesheet_9
+    21300020: June_TransformationSpritesheet_10
+    21300022: June_TransformationSpritesheet_11
+    21300024: June_TransformationSpritesheet_12
+    21300026: June_TransformationSpritesheet_13
+    21300028: June_TransformationSpritesheet_14
+    21300030: June_TransformationSpritesheet_15
+    21300032: June_TransformationSpritesheet_16
+    21300034: June_TransformationSpritesheet_17
+    21300036: June_TransformationSpritesheet_18
+    21300038: June_TransformationSpritesheet_19
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,25 +50,225 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 1}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: June_TransformationSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2049
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2049
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2049
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2049
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1539
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1539
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1539
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1539
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1029
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1029
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1029
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1029
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 519
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 519
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 519
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 9
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 9
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: June_TransformationSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 9
+        width: 512
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
