@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{d9c21c15-9c12-4675-b22a-65046e7ba345}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.61868480725623587</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/MachiWhine1 {b03e86b2-db68-47fe-a45b-116238d8b7d8}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{cb5ea9e7-af7a-4575-9597-7ddaa0c79792}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{1be90c50-40df-4a21-8908-23fbb77e383d}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>136</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>1424305103</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Real World Theme - Test Run {1b90f7ad-9563-48f0-bd8f-cfc99009b964}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{29f31920-953d-4e09-8b44-36e09f930320}</destination>
+        </relationship>
+    </object>
+</objects>

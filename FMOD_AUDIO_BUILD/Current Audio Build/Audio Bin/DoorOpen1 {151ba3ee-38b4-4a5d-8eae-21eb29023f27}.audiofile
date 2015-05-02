@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{151ba3ee-38b4-4a5d-8eae-21eb29023f27}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.75734693877551018</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>1424567616</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/DoorOpen1 {89642652-158e-4f81-9396-7804492fcbcf}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f4935b96-7c3c-4027-a4a6-6c19fa05509d}</destination>
+        </relationship>
+    </object>
+</objects>

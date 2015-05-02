@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{0e225642-1e40-4de4-885c-d30b592878e7}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.874671201814059</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>1424470012</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/JuneRunning1 {2ff5f0b1-b345-4c98-8dba-b7cbe4ec895b}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{665a8018-4074-4861-b3e1-ddf7da9406bc}</destination>
+        </relationship>
+    </object>
+</objects>

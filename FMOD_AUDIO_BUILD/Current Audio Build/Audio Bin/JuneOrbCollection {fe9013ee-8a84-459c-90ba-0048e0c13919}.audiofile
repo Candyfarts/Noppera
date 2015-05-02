@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{fe9013ee-8a84-459c-90ba-0048e0c13919}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.78126984126984123</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>1424374523</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/JuneOrbCollection {37979c47-e00a-435a-ac87-6246bceb11ea}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{1c7bf252-e96d-46ff-98bc-e113991d5ac9}</destination>
+        </relationship>
+    </object>
+</objects>

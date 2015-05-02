@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{c0c1b116-904a-485a-a6a0-d42a65a01b82}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.75</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/MachiSwallow4 {c930b8d3-1bc0-46c4-9ade-a13c6815cb85}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{cb5ea9e7-af7a-4575-9597-7ddaa0c79792}</destination>
+        </relationship>
+    </object>
+</objects>

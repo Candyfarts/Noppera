@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{c44edcd9-902d-486a-b9d2-9eda0a033f94}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.15625850340136055</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/ButtonPress {d110b0ac-a9a9-4ed0-a532-ac4b1c8c887e}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{6c873779-6d4e-4131-9b9b-6d574ba752cb}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{94900452-0179-4390-8bde-e09049d01bac}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.0373469387755101</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/CreakingWood5 {a07d00d9-74c3-45fb-8b3b-40131aaaa42f}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{60554cad-95cc-459b-a28d-a18fdb083930}</destination>
+        </relationship>
+    </object>
+</objects>

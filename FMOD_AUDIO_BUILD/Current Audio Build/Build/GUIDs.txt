@@ -1,0 +1,20 @@
+{463779ad-bff3-4cb6-be1a-adf5369dd731} event:/Ambience/WoodCreaking
+{452e592a-92bf-4516-ba4c-b7a0c60110f9} event:/Character/June/JuneCollect
+{8928a536-eccb-44fc-b03a-5a95df11ac7c} event:/Character/June/JuneWalking
+{2d681935-db41-4359-952c-fbeb9695c574} event:/Character/Machi/MachiBark
+{d54c9968-f7a5-4e46-bdda-d0c188e43e8e} event:/Character/Machi/MachiDeath
+{571c746c-bcd1-4bd8-ba73-bb1b2fb58a6f} event:/Character/Machi/MachiWalking
+{15a1de4a-4683-434e-ae20-2ce6b75817c3} event:/Character/Machi/MachiWarg
+{bcad4130-94f2-4f2a-a7de-2876eace1b1c} event:/Foley/DoorOpenClose
+{f196f7c6-1be0-4ba4-99ff-b68479a7973f} event:/Foley/DoorUnlock
+{72a649ff-8466-46ee-a7e1-d3978983c33b} event:/Music/Level1Music
+{e44764a5-6077-4777-a8e4-b17da73b8209} event:/Music/Level2Music
+{51ef9c03-a0c3-4ed8-81b9-8306a33c8734} event:/Music/TitleMusic
+{365b71b0-4393-4ee7-a28c-0bba1e404def} event:/UI/ButtonPress
+{61ca4864-edec-4854-928b-46a16f754d2b} event:/UI/OpenBook
+{17d3163a-5393-4725-b6da-2d28a080db84} event:/UI/PageFlip
+{212b7e8a-894b-43ae-9bcd-380bdec111c7} bus:/
+{4bcc62ed-e8c0-49ae-b229-bc90cd33dee8} bus:/Reverb
+{0dff9999-a15c-4674-b02a-b7ed6177e7c6} bus:/SFX
+{8f4d90ef-29a0-42b0-be0a-f49048f74dba} bus:/SFX/Reverb
+{f74b2d8e-0011-4713-bea3-998703b81b4a} bank:/Master Bank
