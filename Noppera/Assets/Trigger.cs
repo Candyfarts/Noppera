@@ -10,6 +10,14 @@ public class Trigger : MonoBehaviour {
 	public bool alltext = false;
 	int sindex = 0;
 	public int useCount = 1;
+	public bool repeatable;
+
+	
+	public Fader fader;
+	public Vector3 fadeTo;
+	public bool fadeSleep;
+	[Range(0.5f, 5)]
+	public float fadeTime = 1;
 
 	public void trigger () {
 		if(e != null)
@@ -40,9 +48,14 @@ public class Trigger : MonoBehaviour {
 				useCount--;
 			}
 		}
-		if (useCount == 0)
+		if (!repeatable && useCount == 0)
 		{
 			this.gameObject.SetActive(false);
+		}
+		if (fader != null) {
+			fader.fadeTo(fadeTo, fadeTime);
+			if (fadeSleep)
+				Player.instance.sleep();
 		}
 	}
 }

@@ -18,7 +18,10 @@ public class Player : MonoBehaviour {
 	bool back;
 	bool idle;
 
-	public float stuck;
+	private bool waking;
+
+	public float asleep = 1.2f;
+	public bool stuck;
 
 	public static Player instance;
 
@@ -35,8 +38,7 @@ public class Player : MonoBehaviour {
 		h = Input.GetAxis("Horizontal");
 		v = Input.GetAxis("Vertical");
 
-		if (stuck <= 0)
-		{
+		if (asleep <= 0 && !stuck){
 			GetComponent<Rigidbody2D>().MovePosition(this.GetComponent<Rigidbody2D>().position + new Vector2(h, v) * moveSpeed);
 			bool lastorientation = right;
 			right = right ? (h >= 0) : (h > 0);//||(lastorientation);
@@ -47,26 +49,33 @@ public class Player : MonoBehaviour {
 			}
 		}
 
-		idle = (Mathf.Abs(h) < .1f) && (Mathf.Abs(v) < .1f);
+		if (stuck)
+			idle = true;
+		else
+			idle = (Mathf.Abs(h) < .1f) && (Mathf.Abs(v) < .1f);
 		
-		if (!idle && stuck > 0)
-		{
+		if (!idle && asleep > 0 && !waking){
+			waking = true;
 			StartCoroutine(wakeup());
 		}
 		anim.SetBool("idle", idle);
 		anim.SetBool("back", back);
+		anim.SetBool ("asleep", asleep > 0);
 
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			TextManager.singleton.write("I am speaking now. la la la la la.");
 		}
-		if (useTrigger != null)
+		if (Input.GetKeyDown(KeyCode.E))
 		{
-			if (Input.GetKeyDown(KeyCode.E))
-			{
+			if (useTrigger != null){
 				useTrigger.trigger();
 			}
 		}
+	}
+
+	public void sleep(){
+		asleep = 1.2f;
 	}
 
 	public void warpTo(Vector2 v)
@@ -75,10 +84,10 @@ public class Player : MonoBehaviour {
 	}
 	public IEnumerator wakeup()
 	{
-		while (stuck > 0)
-		{
-			stuck -= Time.fixedDeltaTime;
+		while (asleep > 0){
+			asleep -= Time.fixedDeltaTime;
 			yield return null;
 		}
+		waking = false;
 	}
 }

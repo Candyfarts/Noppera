@@ -191,7 +191,7 @@ public class FMOD_StudioSystem : MonoBehaviour
 			}
 			
 			FMOD.Studio.EventDescription desc = null;
-			ERRCHECK(system.getEventByID(id, out desc));
+//			ERRCHECK(system.getEventByID(id, out desc));
 			
 			if (desc != null && desc.isValid())
 			{

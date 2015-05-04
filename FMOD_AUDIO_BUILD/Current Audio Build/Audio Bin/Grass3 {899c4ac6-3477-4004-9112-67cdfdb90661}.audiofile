@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{899c4ac6-3477-4004-9112-67cdfdb90661}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.50062499999999999</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>1414643048</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Grass3 {b5e14713-c04a-4746-8ccf-096883a7e778}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{cd575e92-38fc-4f70-99c2-85437ee42c4a}</destination>
+        </relationship>
+    </object>
+</objects>

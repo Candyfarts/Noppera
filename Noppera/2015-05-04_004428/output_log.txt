@@ -1,0 +1,122 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
+    Vendor:   Intel
+    VRAM:     896 MB
+FMOD failed to initialize ... A call to a standard soundcard driver failed, which could possibly mean a bug in the driver or resources were missing or exhausted. 
+ 
+(Filename:  Line: 477)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.152 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Managed\System.dll (this message is harmless)
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\Abagraba\Desktop\Noppera\Noppera;C:\Users\Abagraba\Desktop\Noppera\Noppera;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Abagraba'
+OS-Version: 6.2.9200 () 0x300-0x1
+C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera.exe:Noppera.exe (01010000), size: 16437248 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera.exe', fileVersion: 5.0.1.11919
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (77B10000), size: 1470464 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 6.3.9600.17278
+C:\WINDOWS\SYSTEM32\KERNEL32.DLL:KERNEL32.DLL (772E0000), size: 1310720 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\KERNEL32.DLL', fileVersion: 6.3.9600.17056
+C:\WINDOWS\SYSTEM32\KERNELBASE.dll:KERNELBASE.dll (75800000), size: 851968 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\KERNELBASE.dll', fileVersion: 6.3.9600.17278
+C:\WINDOWS\system32\apphelp.dll:apphelp.dll (72AE0000), size: 626688 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\apphelp.dll', fileVersion: 6.3.9600.17031
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (705E0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\WS2_32.dll:WS2_32.dll (76040000), size: 315392 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WS2_32.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\USER32.dll:USER32.dll (75A80000), size: 1359872 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\USER32.dll', fileVersion: 6.3.9600.17344
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (74DC0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\ole32.dll:ole32.dll (77930000), size: 1097728 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ole32.dll', fileVersion: 6.3.9600.17042
+C:\WINDOWS\SYSTEM32\SHLWAPI.dll:SHLWAPI.dll (77690000), size: 266240 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SHLWAPI.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\ADVAPI32.dll:ADVAPI32.dll (77250000), size: 491520 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ADVAPI32.dll', fileVersion: 6.3.9600.17031
+C:\WINDOWS\SYSTEM32\GDI32.dll:GDI32.dll (77570000), size: 1077248 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GDI32.dll', fileVersion: 6.3.9600.17246
+C:\WINDOWS\SYSTEM32\SHELL32.dll:SHELL32.dll (76090000), size: 18575360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SHELL32.dll', fileVersion: 6.3.9600.17331
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (5A950000), size: 868352 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (74630000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 6.3.9600.17078
+C:\WINDOWS\SYSTEM32\OLEAUT32.dll:OLEAUT32.dll (75950000), size: 610304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OLEAUT32.dll', fileVersion: 6.3.9600.17403
+C:\WINDOWS\SYSTEM32\MSACM32.dll:MSACM32.dll (70D00000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSACM32.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\IMM32.dll:IMM32.dll (75A50000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IMM32.dll', fileVersion: 6.3.9600.17031
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (71700000), size: 507904 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DNSAPI.dll', fileVersion: 6.3.9600.17039
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (73C60000), size: 122880 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (73C80000), size: 606208 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINHTTP.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\msvcrt.dll:msvcrt.dll (75DB0000), size: 778240 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\msvcrt.dll', fileVersion: 7.0.9600.16384
+C:\WINDOWS\SYSTEM32\NSI.dll:NSI.dll (772D0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\NSI.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\RPCRT4.dll:RPCRT4.dll (75750000), size: 720896 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\RPCRT4.dll', fileVersion: 6.3.9600.17216
+C:\WINDOWS\SYSTEM32\combase.dll:combase.dll (776E0000), size: 1368064 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\combase.dll', fileVersion: 6.3.9600.17031
+C:\WINDOWS\SYSTEM32\sechost.dll:sechost.dll (75540000), size: 253952 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\sechost.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (5A160000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\DDRAW.dll:DDRAW.dll (71240000), size: 946176 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DDRAW.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (74610000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMMBASE.dll', fileVersion: 6.3.9600.17080
+C:\WINDOWS\SYSTEM32\MSCTF.dll:MSCTF.dll (75EB0000), size: 1011712 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSCTF.dll', fileVersion: 6.3.9600.17031
+C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (73C50000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINNSI.DLL', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\SspiCli.dll:SspiCli.dll (75520000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SspiCli.dll', fileVersion: 6.3.9600.16408
+C:\WINDOWS\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (71410000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DCIMAN32.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (75E70000), size: 237568 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\cfgmgr32.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\DEVOBJ.dll:DEVOBJ.dll (745F0000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DEVOBJ.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (75510000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CRYPTBASE.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\bcryptPrimitives.dll:bcryptPrimitives.dll (754B0000), size: 335872 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\bcryptPrimitives.dll', fileVersion: 6.3.9600.17120
+C:\WINDOWS\SYSTEM32\shcore.dll:shcore.dll (74570000), size: 483328 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\shcore.dll', fileVersion: 6.3.9600.17238
+C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Mono\mono.dll:mono.dll (10000000), size: 2289664 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Mono\mono.dll'
+C:\WINDOWS\SYSTEM32\PSAPI.DLL:PSAPI.DLL (77680000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\PSAPI.DLL', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (73DE0000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSWSOCK.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (753E0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\kernel.appcore.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (74490000), size: 897024 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\uxtheme.dll', fileVersion: 6.3.9600.17031
+C:\WINDOWS\system32\dwmapi.dll:dwmapi.dll (74470000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\dwmapi.dll', fileVersion: 6.3.9600.17238
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (71490000), size: 1765376 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d11.dll', fileVersion: 6.3.9600.17041
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (71420000), size: 401408 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxgi.dll', fileVersion: 6.3.9600.17201
+C:\WINDOWS\SYSTEM32\nvumdshim.dll:nvumdshim.dll (66330000), size: 872448 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\nvumdshim.dll', fileVersion: 9.18.13.4052
+C:\WINDOWS\SYSTEM32\SETUPAPI.dll:SETUPAPI.dll (75580000), size: 1757184 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SETUPAPI.dll', fileVersion: 6.3.9600.17031
+C:\WINDOWS\system32\nvinit.dll:nvinit.dll (66300000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\nvinit.dll', fileVersion: 9.18.13.4052
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\detoured.dll:detoured.dll (0F000000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\detoured.dll'
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvd3d9wrap.dll:nvd3d9wrap.dll (662D0000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvd3d9wrap.dll', fileVersion: 9.18.13.4052
+C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvdxgiwrap.dll:nvdxgiwrap.dll (69CA0000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\NVIDIA Corporation\CoProcManager\nvdxgiwrap.dll', fileVersion: 9.18.13.4052
+C:\WINDOWS\system32\igd10iumd32.dll:igd10iumd32.dll (0F3C0000), size: 6983680 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\igd10iumd32.dll', fileVersion: 10.18.10.3907
+C:\WINDOWS\SYSTEM32\d3d10_1.dll:d3d10_1.dll (501B0000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d10_1.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (74380000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\bcrypt.dll', fileVersion: 6.3.9600.17031
+C:\WINDOWS\SYSTEM32\ncrypt.dll:ncrypt.dll (74000000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ncrypt.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\d3d10_1core.dll:d3d10_1core.dll (50150000), size: 331776 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d10_1core.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\NTASN1.dll:NTASN1.dll (73F80000), size: 176128 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\NTASN1.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\igdusc32.dll:igdusc32.dll (63800000), size: 8761344 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\igdusc32.dll', fileVersion: 10.18.10.3907
+C:\WINDOWS\SYSTEM32\MMDevAPI.DLL:MMDevAPI.DLL (70E70000), size: 303104 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MMDevAPI.DLL', fileVersion: 6.3.9600.17031
+C:\WINDOWS\SYSTEM32\wdmaud.drv:wdmaud.drv (70DB0000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wdmaud.drv', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\ksuser.dll:ksuser.dll (70DA0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ksuser.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\AVRT.dll:AVRT.dll (70D90000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AVRT.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (70D30000), size: 393216 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AUDIOSES.DLL', fileVersion: 6.3.9600.17393
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (72660000), size: 253952 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\powrprof.dll', fileVersion: 6.3.9600.17031
+C:\WINDOWS\SYSTEM32\msacm32.drv:msacm32.drv (70D20000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\msacm32.drv', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\midimap.dll:midimap.dll (70CF0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\midimap.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\dsound.dll:dsound.dll (70DF0000), size: 495616 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dsound.dll', fileVersion: 6.3.9600.16384
+C:\WINDOWS\SYSTEM32\clbcatq.dll:clbcatq.dll (758D0000), size: 512000 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\clbcatq.dll', fileVersion: 2001.12.10530.16384
+C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_a9efdb8b01377ea7\comctl32.dll:comctl32.dll (747A0000), size: 1990656 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_a9efdb8b01377ea7\comctl32.dll', fileVersion: 6.10.9600.17031
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00400000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\xinput1_3.dll', fileVersion: 9.18.944.0
+C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Plugins\fmod.dll:fmod.dll (6D910000), size: 1982464 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Plugins\fmod.dll', fileVersion: 0.1.6.1
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (5F110000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WSOCK32.dll', fileVersion: 6.3.9600.16384
+C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Plugins\fmodstudio.dll:fmodstudio.dll (6D6F0000), size: 2191360 (result: 0), SymType: '-exported-', PDB: 'C:\Users\Abagraba\Desktop\Noppera\Noppera\Noppera_Data\Plugins\fmodstudio.dll', fileVersion: 0.1.6.1
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (74050000), size: 1343488 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dbghelp.dll', fileVersion: 6.3.9600.16520
+
+========== OUTPUTING STACK TRACE ==================
+
+0141DE44 (Noppera) RegisterModule_Audio
+011D6581 (Noppera) UserList::AddUser
+0126DB81 (Noppera) PlayerMainWndProc
+0126F800 (Noppera) PlayerWinMain
+015A4E98 (Noppera) RemapPPtrTransfer::TransferTypelessData
+015DBECF (Noppera) RemapPPtrTransfer::TransferTypelessData
+772F919F (KERNEL32) BaseThreadInitThunk
+77B60BBB (ntdll) RtlInitializeExceptionChain
+77B60B91 (ntdll) RtlInitializeExceptionChain
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****

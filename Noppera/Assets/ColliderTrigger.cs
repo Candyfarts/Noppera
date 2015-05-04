@@ -3,10 +3,9 @@ using System.Collections;
 
 public class ColliderTrigger : Trigger {
 
-	void OnTriggerEnter2D(Collider2D col)
-	{
-		if (col.gameObject.tag == "Player")
-		{
+
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.gameObject.tag == "Player"){
 			Player.instance.useTrigger = this;
 		}
 	}

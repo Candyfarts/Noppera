@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{6e7f179c-7899-4dea-be54-d28163564037}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>185.56702947845804</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>0</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Noppera {b2a62fbb-a7a9-4253-958d-c0b60b296633}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{29f31920-953d-4e09-8b44-36e09f930320}</destination>
+        </relationship>
+    </object>
+</objects>

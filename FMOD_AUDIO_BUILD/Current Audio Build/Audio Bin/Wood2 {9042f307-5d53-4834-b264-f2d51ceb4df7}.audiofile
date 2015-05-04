@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{9042f307-5d53-4834-b264-f2d51ceb4df7}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.49958333333333332</value>
+        </property>
+        <property name="lastModifiedDate">
+            <value>1414643048</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Wood2 {49939a56-5a84-4232-83c6-69e8dfb251a1}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{cd575e92-38fc-4f70-99c2-85437ee42c4a}</destination>
+        </relationship>
+    </object>
+</objects>
