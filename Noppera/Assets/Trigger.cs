@@ -21,6 +21,7 @@ public class Trigger : MonoBehaviour {
 
 	public bool pause = false;
 	public GameObject activateObject;
+	public GameObject deactivateObject;
 
 	public void trigger () {
 		if(e != null)
@@ -60,9 +61,11 @@ public class Trigger : MonoBehaviour {
 			if (fadeSleep)
 				Player.instance.sleep();
 		}
-		if (activateObject != null)
-		{
+		if (activateObject != null){
 			activateObject.SetActive(true);
+		}
+		if (deactivateObject != null){
+			deactivateObject.SetActive(false);
 		}
 		if (pause)
 		{
