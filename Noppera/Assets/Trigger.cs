@@ -19,6 +19,9 @@ public class Trigger : MonoBehaviour {
 	[Range(0.5f, 5)]
 	public float fadeTime = 1;
 
+	public bool pause = false;
+	public GameObject activateObject;
+
 	public void trigger () {
 		if(e != null)
 			e.activate();
@@ -56,6 +59,14 @@ public class Trigger : MonoBehaviour {
 			fader.fadeTo(fadeTo, fadeTime);
 			if (fadeSleep)
 				Player.instance.sleep();
+		}
+		if (activateObject != null)
+		{
+			activateObject.SetActive(true);
+		}
+		if (pause)
+		{
+			Time.timeScale = 0;
 		}
 	}
 }
