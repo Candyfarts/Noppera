@@ -27,7 +27,7 @@ GameObject:
   - 4: {fileID: 444146}
   - 50: {fileID: 5094804}
   - 58: {fileID: 5811364}
-  - 114: {fileID: 11495796}
+  - 114: {fileID: 11471760}
   m_Layer: 8
   m_Name: White Dog
   m_TagString: Player
@@ -105,7 +105,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11495796
+--- !u!114 &11471760
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -113,11 +113,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 186130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f337a65e4dc6104abef5773a10a473d, type: 3}
+  m_Script: {fileID: 11500000, guid: b27e9e31328122d4681b1f9c5923c3d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: .100000001
-  anim: {fileID: 9551072}
+  waypoints: []
+  moveDistance: 5
+  moveTimer: 0
+  moveSpeed: 0
+  anim: {fileID: 0}
 --- !u!212 &21256864
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -14,7 +14,7 @@ PlayerSettings:
   companyName: DefaultCompany
   productName: Noppera
   cloudProjectId: 
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: c2b7ae1061fe49a4e9b456cc294afc98, type: 3}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
