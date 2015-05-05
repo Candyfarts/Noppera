@@ -6,6 +6,8 @@ public class Trigger : MonoBehaviour {
 	public Event e;
 
 	public string[] text;
+	public GameObject[] itemsToActivate;
+	public GameObject[] itemsToDeactivate;
 	public bool important = true;
 	public bool alltext = false;
 	int sindex = 0;
@@ -70,6 +72,16 @@ public class Trigger : MonoBehaviour {
 		if (pause)
 		{
 			Time.timeScale = 0;
+		}
+		if(itemsToActivate.Length > 0){
+			foreach(GameObject target in itemsToActivate){
+				target.SetActive(true);
+			}
+		}
+		if(itemsToDeactivate.Length > 0){
+			foreach(GameObject target in itemsToDeactivate){
+				target.SetActive(false);
+			}
 		}
 	}
 }
