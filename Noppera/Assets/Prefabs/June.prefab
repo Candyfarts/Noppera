@@ -11,7 +11,6 @@ GameObject:
   - 50: {fileID: 5049450}
   - 58: {fileID: 5899360}
   - 114: {fileID: 11438912}
-  - 114: {fileID: 11402272}
   m_Layer: 8
   m_Name: June
   m_TagString: Player
@@ -62,7 +61,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.32999992, y: -3.27999997, z: 0}
+  m_LocalPosition: {x: -4.30000019, y: -2.8599999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: .5}
   m_Children:
   - {fileID: 449596}
@@ -150,9 +149,9 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 5.96046448e-08, y: 0}
+  m_Offset: {x: 5.96046448e-08, y: .100000001}
   serializedVersion: 2
-  m_Radius: .25
+  m_Radius: .150000006
 --- !u!81 &8102114
 AudioListener:
   m_ObjectHideFlags: 1
@@ -184,18 +183,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11402272
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 115202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f8336b22d6d3af4da2712827e9ad333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pluginPaths: []
 --- !u!114 &11438912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -209,7 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: .0500000007
   anim: {fileID: 9555100}
-  asleep: 26
+  asleep: 1.5
   stuck: 0
   useTrigger: {fileID: 0}
 --- !u!124 &12496592

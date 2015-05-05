@@ -49,24 +49,21 @@ public class Player : MonoBehaviour {
 			}
 		}
 
-		if (stuck)
+		if (stuck && !waking)
 			idle = true;
-		else
+		else if(!waking)
 			idle = (Mathf.Abs(h) < .1f) && (Mathf.Abs(v) < .1f);
 		
 		if (!idle && asleep > 0 && !waking){
 			waking = true;
 			StartCoroutine(wakeup());
+			idle = false;
 		}
 		anim.SetBool("idle", idle);
 		anim.SetBool("back", back);
 		anim.SetBool ("asleep", asleep > 0);
 
 		if (Input.GetKeyDown(KeyCode.Space))
-		{
-			TextManager.singleton.write("I am speaking now. la la la la la.");
-		}
-		if (Input.GetKeyDown(KeyCode.E))
 		{
 			if (useTrigger != null){
 				useTrigger.trigger();
@@ -75,7 +72,8 @@ public class Player : MonoBehaviour {
 	}
 
 	public void sleep(){
-		asleep = 1.2f;
+		asleep = 1.5f;
+		stuck = true;
 	}
 
 	public void warpTo(Vector2 v)

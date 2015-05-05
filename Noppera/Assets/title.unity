@@ -370,9 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f778ac2426291414dacf09626858faa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fading: 0
-  level: 
-  fadeSpeed: 0
+  fadeTime: 0
   guitexture: {fileID: 237862673}
 --- !u!4 &237862672
 Transform:
@@ -763,10 +761,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1783798921}
   m_RootOrder: 5
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -.249984741, y: 0}
-  m_SizeDelta: {x: 800.5, y: 450}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 7.62939453e-06, y: 0}
+  m_SizeDelta: {x: 1.52587891e-05, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1059841591
 MonoBehaviour:
@@ -893,6 +891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   asset: {fileID: 11400000, guid: 47ec8d5a573c572439336fa984fb3dc3, type: 2}
+  target: {fileID: 0}
   delay: 0
 --- !u!114 &1061244351
 MonoBehaviour:
