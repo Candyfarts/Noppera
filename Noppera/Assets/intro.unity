@@ -114,7 +114,10 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 723778772}
+  - {fileID: 1474540858}
+  - {fileID: 756550423}
   m_Father: {fileID: 661955655}
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
@@ -334,6 +337,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   e: {fileID: 0}
   text: []
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -561,6 +566,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1729433802}
   m_RootOrder: 9
+--- !u!1 &433451061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 433451062}
+  - 114: {fileID: 433451064}
+  - 61: {fileID: 433451063}
+  m_Layer: 0
+  m_Name: TreeActivator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &433451062
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 433451061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.6250019, y: -20.7099915, z: 0}
+  m_LocalScale: {x: 13.6499939, y: 3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 657144402}
+  m_RootOrder: 4
+--- !u!61 &433451063
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 433451061}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+--- !u!114 &433451064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 433451061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227f40a8b3f777f42b7fe2fce61bf6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AcceptedType: 3
+  itemToUse: {fileID: 1474540857}
+  tree: {fileID: 742922942}
+  eyeball: {fileID: 1404910072}
+  chest: {fileID: 1000807233}
 --- !u!1001 &502926652
 Prefab:
   m_ObjectHideFlags: 0
@@ -613,7 +676,7 @@ GameObject:
   - 4: {fileID: 517733766}
   - 212: {fileID: 517733765}
   m_Layer: 0
-  m_Name: Tree
+  m_Name: TreeAsleep
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -716,6 +779,8 @@ MonoBehaviour:
   text:
   - '..........'
   - Whoa
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 1
   useCount: 1
@@ -782,6 +847,9 @@ Transform:
   - {fileID: 2077219066}
   - {fileID: 1404910077}
   - {fileID: 1728551467}
+  - {fileID: 433451062}
+  - {fileID: 742922943}
+  - {fileID: 1000807234}
   m_Father: {fileID: 0}
   m_RootOrder: 10
 --- !u!68 &657144403
@@ -900,6 +968,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - He needs braces...
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -954,6 +1024,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   e: {fileID: 0}
   text: []
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -1058,6 +1130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   e: {fileID: 0}
   text: []
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -1235,6 +1309,326 @@ Animator:
   m_PrefabParentObject: {fileID: 9551072, guid: 81c4f34cec13dd44ab567c4a97ae6d9b,
     type: 2}
   m_PrefabInternal: {fileID: 690818034}
+--- !u!1 &723778771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 723778772}
+  - 222: {fileID: 723778775}
+  - 114: {fileID: 723778774}
+  - 114: {fileID: 723778773}
+  - 95: {fileID: 723778776}
+  m_Layer: 5
+  m_Name: BookButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &723778772
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723778771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 300688842}
+  m_RootOrder: 0
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: 76.3000031, y: 11}
+  m_SizeDelta: {x: 74.0999985, y: 48}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &723778773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723778771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 3
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: .960784316, g: .960784316, b: .960784316, a: 1}
+    m_PressedColor: {r: .784313738, g: .784313738, b: .784313738, a: 1}
+    m_DisabledColor: {r: .784313738, g: .784313738, b: .784313738, a: .501960814}
+    m_ColorMultiplier: 1
+    m_FadeDuration: .100000001
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 723778774}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1373460699}
+        m_MethodName: selectBook
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &723778774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723778771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 7ec54cf0b038574428eb92fb03437e2f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &723778775
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723778771}
+--- !u!95 &723778776
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723778771}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d1685a0208b83814b890869736c0eb13, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &742922942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 742922943}
+  - 212: {fileID: 742922944}
+  m_Layer: 0
+  m_Name: TreeAwake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &742922943
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742922942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.2000008, y: -3.0999999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 657144402}
+  m_RootOrder: 5
+--- !u!212 &742922944
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742922942}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: b9bf6a14b65958f499875cc455689edb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &756550422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 756550423}
+  - 222: {fileID: 756550426}
+  - 114: {fileID: 756550425}
+  - 114: {fileID: 756550424}
+  - 95: {fileID: 756550427}
+  m_Layer: 5
+  m_Name: EggButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &756550423
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756550422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 300688842}
+  m_RootOrder: 2
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: -20.2999992, y: -14}
+  m_SizeDelta: {x: 51.7000008, y: 58.7999992}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &756550424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756550422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 3
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: .960784316, g: .960784316, b: .960784316, a: 1}
+    m_PressedColor: {r: .784313738, g: .784313738, b: .784313738, a: 1}
+    m_DisabledColor: {r: .784313738, g: .784313738, b: .784313738, a: .501960814}
+    m_ColorMultiplier: 1
+    m_FadeDuration: .100000001
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 756550425}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1373460699}
+        m_MethodName: selectEgg
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &756550425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756550422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 8bf7b89ea7294654db20387798a7ea50, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &756550426
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756550422}
+--- !u!95 &756550427
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756550422}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d1685a0208b83814b890869736c0eb13, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &756825860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,6 +1672,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - '...'
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -1691,6 +2087,8 @@ MonoBehaviour:
   text:
   - I love paintings!
   - Especially this one.
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 0
   alltext: 1
   useCount: 1
@@ -1898,6 +2296,77 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
+--- !u!1 &1000807233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1000807234}
+  - 58: {fileID: 1000807236}
+  - 114: {fileID: 1000807235}
+  m_Layer: 0
+  m_Name: ChestCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1000807234
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1000807233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.7299995, y: -13.0500002, z: 0}
+  m_LocalScale: {x: 8.37347317, y: 8.37347126, z: 1.67469442}
+  m_Children: []
+  m_Father: {fileID: 657144402}
+  m_RootOrder: 6
+--- !u!114 &1000807235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1000807233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909e0b010efeec74588f3330327793e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  e: {fileID: 0}
+  text:
+  - A book and an egg
+  - I will take those
+  itemsToActivate:
+  - {fileID: 723778771}
+  - {fileID: 756550422}
+  itemsToDeactivate: []
+  important: 1
+  alltext: 0
+  useCount: 2
+  repeatable: 0
+  fader: {fileID: 0}
+  fadeTo: {x: 0, y: 0, z: 0}
+  fadeSleep: 0
+  fadeTime: 1
+  pause: 0
+  activateObject: {fileID: 0}
+--- !u!58 &1000807236
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1000807233}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: .5
 --- !u!1 &1008681841
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,6 +2700,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   e: {fileID: 0}
   text: []
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -2309,6 +2780,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   e: {fileID: 0}
   text: []
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -2401,6 +2874,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - '...'
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -2455,6 +2930,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - It's a friendly face!
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -2522,6 +2999,8 @@ MonoBehaviour:
   text:
   - It's empty...
   - You only have one set of clothes...
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 2
@@ -2588,6 +3067,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   e: {fileID: 0}
   text: []
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -2735,6 +3216,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - Looks so very pokable...
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -2789,6 +3272,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - Can't sleep after that
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -2867,6 +3352,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - He seems to be missing something...
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -2890,6 +3377,50 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .5
+--- !u!1 &1373460698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1373460700}
+  - 114: {fileID: 1373460699}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1373460699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373460698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217afa0f7d52baa48aa8a47adcf9f279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSelectedItem: 0
+  storyObjectTargeted: 0
+  bookIcon: {fileID: 723778771}
+  eggIcon: {fileID: 756550422}
+  brushIcon: {fileID: 1474540857}
+--- !u!4 &1373460700
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373460698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 133.477768, y: 66.69841, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
 --- !u!1 &1388649369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,6 +3538,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   e: {fileID: 0}
   text: []
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -3086,7 +3619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!60 &1404910073
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3422,6 +3955,139 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1440424745}
+--- !u!1 &1474540857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1474540858}
+  - 222: {fileID: 1474540861}
+  - 114: {fileID: 1474540860}
+  - 114: {fileID: 1474540859}
+  - 95: {fileID: 1474540862}
+  m_Layer: 5
+  m_Name: PaintbrushButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1474540858
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1474540857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 300688842}
+  m_RootOrder: 1
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: 26.2999992, y: -5.6500001}
+  m_SizeDelta: {x: 75.5, y: 75.5}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &1474540859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1474540857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 3
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: .960784316, g: .960784316, b: .960784316, a: 1}
+    m_PressedColor: {r: .784313738, g: .784313738, b: .784313738, a: 1}
+    m_DisabledColor: {r: .784313738, g: .784313738, b: .784313738, a: .501960814}
+    m_ColorMultiplier: 1
+    m_FadeDuration: .100000001
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1474540860}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1373460699}
+        m_MethodName: selectBrush
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1474540860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1474540857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: dd5e5f156226b1f46ab629fed8587300, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1474540861
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1474540857}
+--- !u!95 &1474540862
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1474540857}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d1685a0208b83814b890869736c0eb13, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1563972872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,6 +4131,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - The lone pupil stares into your soul...
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -3646,6 +4314,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - The eye seems so lonely without its pupil...
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -3742,6 +4412,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   e: {fileID: 0}
   text: []
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 1
   alltext: 0
   useCount: 1
@@ -3851,6 +4523,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - The door is locked.
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 0
   alltext: 0
   useCount: 1
@@ -3931,6 +4605,8 @@ MonoBehaviour:
   e: {fileID: 0}
   text:
   - They seem friendly
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 0
   alltext: 0
   useCount: 1
@@ -4102,6 +4778,8 @@ MonoBehaviour:
   - Praise the Sun!
   - Praise the Sun!!!
   - Praise the Sun some more!
+  itemsToActivate: []
+  itemsToDeactivate: []
   important: 0
   alltext: 0
   useCount: 3
