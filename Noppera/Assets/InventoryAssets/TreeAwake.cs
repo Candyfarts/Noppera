@@ -6,6 +6,7 @@ public class TreeAwake : InventoryObject {
 	public GameObject tree;
 	public GameObject eyeball;
 	public GameObject chest;
+	public GameObject deactivateChest;
 	
 	public override void activationEvent ()
 	{
@@ -13,6 +14,8 @@ public class TreeAwake : InventoryObject {
 		tree.SetActive(true);
 		eyeball.SetActive(true);
 		chest.SetActive(true);
+		deactivateChest.SetActive(false);
+		
 		
 	}
 }
