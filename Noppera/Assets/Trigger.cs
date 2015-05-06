@@ -22,8 +22,8 @@ public class Trigger : MonoBehaviour {
 	public float fadeTime = 1;
 
 	public bool pause = false;
-	public GameObject activateObject;
-	public GameObject deactivateObject;
+	public GameObject[] activateObject;
+	public GameObject[] deactivateObject;
 
 	public void trigger () {
 		if(e != null)
@@ -63,11 +63,15 @@ public class Trigger : MonoBehaviour {
 			if (fadeSleep)
 				Player.instance.sleep();
 		}
-		if (activateObject != null){
-			activateObject.SetActive(true);
+		foreach(GameObject obj in activateObject){
+			if (obj != null){
+				obj.SetActive(true);
+			}
 		}
-		if (deactivateObject != null){
-			deactivateObject.SetActive(false);
+		foreach (GameObject obj in deactivateObject) {
+			if (obj != null) {
+				obj.SetActive (false);
+			}
 		}
 		if (pause)
 		{
