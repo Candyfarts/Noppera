@@ -11,16 +11,17 @@ public class InventoryManager : MonoBehaviour {
 	public GameObject eggIcon;
 	public GameObject brushIcon;
 	
-	private Texture2D book;
-	private Texture2D egg;
-	private Texture2D pbrush;
-	private Texture2D dcursor;
+	public Texture2D book;
+	public Texture2D egg;
+	public Texture2D pbrush;
+	public Texture2D dcursor;
 	
 	void Start(){
 		book = (Texture2D)Resources.Load("Book01");
 		egg = (Texture2D)Resources.Load("Egg");
 		pbrush = (Texture2D)Resources.Load("paintbrush_and_ink");
 		dcursor = (Texture2D)Resources.Load("Arrow");
+		Cursor.SetCursor(dcursor, Vector2.zero, CursorMode.Auto);
 	}
 	
 	public static InventoryManager singleton {

@@ -87,7 +87,7 @@ NavMeshSettings:
     cellSize: .166666657
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &8216216
+--- !u!114 &8216216 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11493462, guid: b27ea52815fd76b4bae2b11e5549000f,
     type: 2}
@@ -188,7 +188,7 @@ SpriteRenderer:
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: a3bef708d0dd02248b43ca5f20a23489, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .470588237}
---- !u!1 &174412819
+--- !u!1 &174412819 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 153352, guid: fbce8e94142bf1f44ae9eaa80a1c4f32, type: 2}
   m_PrefabInternal: {fileID: 2113650698}
@@ -483,7 +483,7 @@ Prefab:
     - {fileID: 5811364, guid: 81c4f34cec13dd44ab567c4a97ae6d9b, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 81c4f34cec13dd44ab567c4a97ae6d9b, type: 2}
   m_IsPrefabParent: 0
---- !u!95 &358530860
+--- !u!95 &358530860 stripped
 Animator:
   m_PrefabParentObject: {fileID: 9551072, guid: 81c4f34cec13dd44ab567c4a97ae6d9b,
     type: 2}
@@ -542,7 +542,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1729433802}
   m_RootOrder: 9
---- !u!1 &438369636
+--- !u!1 &438369636 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 130536, guid: fbce8e94142bf1f44ae9eaa80a1c4f32, type: 2}
   m_PrefabInternal: {fileID: 2113650698}
@@ -1178,7 +1178,7 @@ Prefab:
     - {fileID: 5811364, guid: 81c4f34cec13dd44ab567c4a97ae6d9b, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 81c4f34cec13dd44ab567c4a97ae6d9b, type: 2}
   m_IsPrefabParent: 0
---- !u!95 &690818035
+--- !u!95 &690818035 stripped
 Animator:
   m_PrefabParentObject: {fileID: 9551072, guid: 81c4f34cec13dd44ab567c4a97ae6d9b,
     type: 2}
@@ -1252,7 +1252,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .5
---- !u!224 &759070946
+--- !u!224 &759070946 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22460484, guid: fbce8e94142bf1f44ae9eaa80a1c4f32,
     type: 2}
@@ -2884,7 +2884,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 324384123}
   m_RootOrder: 0
---- !u!114 &1407670421
+--- !u!114 &1407670421 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11478946, guid: fbce8e94142bf1f44ae9eaa80a1c4f32,
     type: 2}
@@ -2960,7 +2960,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82b44a4d5b766e44681abbe923ca39af, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1440424745
+--- !u!1 &1440424745 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 135144, guid: fbce8e94142bf1f44ae9eaa80a1c4f32, type: 2}
   m_PrefabInternal: {fileID: 2113650698}
@@ -3156,7 +3156,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .5
---- !u!1 &1712000395
+--- !u!1 &1712000395 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 115202, guid: 4e00d31a883ef3543916a2276cdcb00c, type: 2}
   m_PrefabInternal: {fileID: 2000727657}
@@ -3197,7 +3197,7 @@ Transform:
   - {fileID: 411553084}
   m_Father: {fileID: 0}
   m_RootOrder: 6
---- !u!95 &1784804439
+--- !u!95 &1784804439 stripped
 Animator:
   m_PrefabParentObject: {fileID: 9551072, guid: 81c4f34cec13dd44ab567c4a97ae6d9b,
     type: 2}
@@ -3367,7 +3367,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1729433802}
   m_RootOrder: 0
---- !u!1 &1869855676
+--- !u!1 &1869855676 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 145250, guid: fbce8e94142bf1f44ae9eaa80a1c4f32, type: 2}
   m_PrefabInternal: {fileID: 2113650698}
@@ -3794,6 +3794,21 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 8216216}
+    - target: {fileID: 11410374, guid: fbce8e94142bf1f44ae9eaa80a1c4f32, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9651df2e80efac341911f7866ae6cee2,
+        type: 3}
+    - target: {fileID: 11464574, guid: fbce8e94142bf1f44ae9eaa80a1c4f32, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b200408353509614fa0194598160ce54,
+        type: 3}
+    - target: {fileID: 11438026, guid: fbce8e94142bf1f44ae9eaa80a1c4f32, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9fe04f5661f77c34895851570560b447,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fbce8e94142bf1f44ae9eaa80a1c4f32, type: 2}
   m_IsPrefabParent: 0
